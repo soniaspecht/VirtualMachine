@@ -1,0 +1,37 @@
+# OPCIONES: 
+# modelos = KateMoss, AdrianaLima, GigiHadid, BellaHadid, BarbaraPalvin
+# peinados = ColetaAlta, OndasSueltas, PeloLiso, Recogido
+# alas = AlasBlancas, AlasRosas, AlasMulticolor, AlasRojas
+# zapatos = TaconesPlumas, TaconesBrillo, Sandalias
+
+
+EMPTY
+DESFILAR
+
+#POP
+#CAMBIAR_ALAS AlasNegras
+#PEEK
+#PUSH_ZAPATOS Sandalias
+#SIZE
+#POP
+#COMPARE
+
+POP
+
+PUSH_ZAPATOS TaconesPlumas
+PUSH_ZAPATOS TaconesBrillo
+PUSH_PEINADO ColetaAlta
+PUSH_MODELO AdrianaLima
+PUSH_ALAS AlasMulticolor
+
+PUSH
+
+#CAMBIAR_ALAS AlasBlancas
+
+#POP
+#PEEK 
+#SIZE
+DESFILAR
+#CONTAINS TaconesBrillo
+
+COMPARE
