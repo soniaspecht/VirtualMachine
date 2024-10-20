@@ -20,7 +20,7 @@ Para poder ejecutar el programa se debe ir a la terminal, y dentro de esta a la 
 ## 1. Estructurar el proyecto
 El primer paso, para crear este programa ha sido crear un pequeño esquema, para estructurar el programa. Se tendrán diferentes pilas y una memoria inmodificable a la que se accede para ver los diferentes modelos almacenados. Además, se tendrá una lista de elementos permitidos para cada categoría, es decir, para los nombres de las modelos, los peinados, las alas y los zapatos. 
 
-<img width="350" alt="Captura de pantalla 2024-10-20 a las 14 22 49" src="https://github.com/user-attachments/assets/63fdf405-b12d-4311-af57-dcbd6b15fc76 ">
+<img width="350" alt="Captura de pantalla 2024-10-20 a las 14 22 49" src="https://github.com/user-attachments/assets/ebcaed79-b196-4cf2-9001-54e3482d84ba">
 
 ## 2. Código
 El código contiene pilas, funciones y una Máquina Virtual, donde la Clase Pila y la clase Máquina Virtual (VM), se explicarán detalladamente luego. El código empieza inicializando la clase Pila, luego tenemos la función de `obtener_tipo()`, en la cual se fija el tipo de elemento, ya sea modelo, peinado, alas o zapatos, para poder clasificarlos y luego poder usarlo para verificar que tenemos solo un elemento de ese tipo. Después, se inicia la clase StackVM, que será explicada más adelante. Por último, tenemos el programa `__main__`, que nos dejara usar el comando <code>python VM.py nombreDelArchivo.Extension</code> que en este caso la extensión es **.fais**.
