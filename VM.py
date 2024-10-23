@@ -74,10 +74,6 @@ class StackVM():
     def __init__(self):
 
         # Inicializar pilas específicas.
-        self.modelos = Pila("modelos")
-        self.peinados = Pila("peinados")
-        self.alas = Pila("alas")
-        self.zapatos = Pila("zapatos")
         self.vestir = Pila("vestir")  # Pila para construir el outfit de la modelo.
 
         # Listas de elementos permitidos para cada categoría. 
