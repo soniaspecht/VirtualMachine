@@ -8,7 +8,7 @@ Este programa se ha ejecutado mediante la aplicación de Visual Studio Code.
 [Descargar Visual Studio Code](https://code.visualstudio.com/download) 
 En esta aplicación se ha instalado Python, y en concreto se ha ejecutado y comprobado su correcto funcionamiento en la ***versión Python 3.13.0***. 
 [Tutorial Python](https://code.visualstudio.com/docs/python/python-tutorial)
-Asimismo, se importarán las librerías **os** y **platform**, como se muestra al inicio del código del archivo **VM.py** para poder visualizar el video.
+Asimismo, se importarán las librerías **os** y **platform**, como se muestra al inicio del código del archivo **VM.py** para poder visualizar el video en un dispositivo Mac.
 
 	import os
 	import platform
