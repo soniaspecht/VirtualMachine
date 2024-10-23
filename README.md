@@ -17,6 +17,8 @@ Es importante mencionar que se tendrán dos archivos diferentes. En el primero, 
 
 Para poder ejecutar el programa se debe ir a la terminal, y dentro de esta a la carpeta donde se tengan almacenados los archivos correspondientes. A continuación, se ejecutará el comando <code>python VM.py  desfile.fais</code> . Por último, se mostrarán los resultados impresos en la terminal. 
 
+Para poder hacer que salten los videos deben de descargarse los videos y modificar la ruta de acceso en la línea 93.
+
 ## 1. Estructurar el proyecto
 El primer paso, para crear este programa ha sido crear un pequeño esquema, para estructurar el programa. Se tendrán diferentes pilas y una memoria inmodificable a la que se accede para ver los diferentes modelos almacenados. Además, se tendrá una lista de elementos permitidos para cada categoría, es decir, para los nombres de las modelos, los peinados, las alas y los zapatos. 
 
